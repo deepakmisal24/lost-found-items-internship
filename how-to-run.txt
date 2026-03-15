@@ -1,0 +1,4 @@
+python generate_report.py
+python prep_data.py
+python build_vector_db.py
+streamlit run app.py

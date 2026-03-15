@@ -1,0 +1,15 @@
+# --- Phase 1 & 2: Data Sourcing and Preparation ---
+beautifulsoup4==4.12.3      # For web scraping product data
+requests==2.32.5            # For downloading web pages and images
+pandas==2.3.3               # For cleaning and structuring the dataset
+Pillow==12.1.1              # For basic image processing
+
+# --- Phase 3: The Brain (Embeddings & Vector DB) ---
+torch==2.10.0                # PyTorch backend required for ML models
+sentence-transformers==5.2.3 # For generating text embeddings
+transformers==5.3.0        # For loading the CLIP model (image embeddings)
+chromadb==1.5.4           # The local vector database for fast similarity search
+
+# --- Phase 4: Search, Storytelling & UI ---
+ollama==0.6.1               # Python client to interact with your local Llama/Mistral LLM
+streamlit==1.55.0           # For building the web UI instantly
